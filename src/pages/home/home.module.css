@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    padding-inline: 10px;
+  }
+  
+  header div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+  }

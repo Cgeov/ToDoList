@@ -1,0 +1,42 @@
+table{
+   width: 100%; 
+}
+
+thead{
+    background-color: #282c34;
+    color: white;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #dbdbdb;
+}
+
+
+.actionsContainer{
+    display: flex; gap: 5px; flex-wrap: wrap;
+}
+
+.update{
+    background-color: #bbbb90;
+    border-radius: 2px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.update:hover{
+    background-color: #99997a;
+}
+
+.delete{
+    background-color: #c43434;
+    border-radius: 2px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover{
+    background-color: #a53434;
+}
