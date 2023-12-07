@@ -4,13 +4,12 @@ import FooterSite from "../../components/footer/footer"
 
 export default function Home({children}){
     return(
-        <div>
-            <header className={style.header}>
+        <div className={style.bodyHome}>
+            <header>
                 <h1>TO DO LIST</h1>
                 <div>
                     <div><a href="/task">Task</a></div>
-                    <div>Profile</div>
-
+                    <div><a href="/task">Profile</a></div>
                 </div>
             </header>
             <main>

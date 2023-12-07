@@ -2,22 +2,63 @@
 
 form{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
     gap: 10px;
-    padding-inline: 10px;
-    padding-block: 20px;
+    padding-inline: 20px;
+    width: 300px;
+    padding-block: 30px;
+    margin-block: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #ebebeb;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.buttonActionForm{
-    
+.containerTwo{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px
 }
 
 form div{
     display: flex;
-    align-items: center;
-    gap: 10px
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+
+label{
+    color: #2b2768;
+    font-weight: 500;
+}
+
+input, textarea, select{
+    padding-block: 10px;
+    border-radius: 10px;
+    border: 1px solid #e6e6e6;
+    resize: none;
+    width: 250px;
+    color: #b6b6b6;
+}
+
+button{
+    background-color: #6c65f2;
+    color: white;
+    border: none;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 10px;
+}
+
+.buttonUpdate{
+    background-color: #a53434;
+    color: white;
+}
+
+
+.bodyHome{
+    background-color: #606570;
 }
 
 table{
@@ -25,8 +66,9 @@ table{
  }
  
  thead{
-     background-color: #282c34;
-     color: white;
+     background-color: #f6f8fc;
+     color: #2b2768;
+     font-weight: 500;
  }
  
  tbody tr:nth-child(odd){
@@ -70,4 +112,17 @@ table{
  
  .delete:hover{
      background-color: #a53434;
+ }
+
+ .containerTaks{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10%;
+    justify-content: center;
+ }
+
+ @media screen and (max-width: 768px) {
+    
  }
