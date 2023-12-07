@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: white;
+    padding-inline: 10px;
+    height: 65px;
+  }
+  
+  header h1, header a{
+    color: #2b2768;
+    text-decoration: none;
+  }
+  
+  
+  header div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .bodyHome {
+    background-color: #f6f8ff;
+  }
+  

@@ -203,9 +203,9 @@ export default function Task() {
                   <td>{element.description}</td>
                   <td>
                     <div className={style.chipStatus}>
-                      {element.status == "todo"
+                      {element.status === "todo"
                         ? "Por Hacer"
-                        : element.status == "doing"
+                        : element.status === "doing"
                         ? "En Proceso"
                         : "Finalizada"}
                     </div>

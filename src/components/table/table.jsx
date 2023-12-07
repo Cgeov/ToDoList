@@ -1,9 +1,8 @@
-import { useEffect, useState } from "react"
+
 import style from "./table.module.css"
 import axios from "axios";
 
 export default function Table({ data }) {
-    const [change, setChange] = useState(true);
     // const [data, setData] = useState([]);
 
     const deleteTask = (id) => {

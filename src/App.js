@@ -1,5 +1,4 @@
 import './App.css';
-import { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/home';
 import Task from './pages/task/task';
