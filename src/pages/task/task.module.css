@@ -34,12 +34,18 @@ label{
 }
 
 input, textarea, select{
-    padding-block: 10px;
+    padding: 10px;
     border-radius: 10px;
     border: 1px solid #e6e6e6;
     resize: none;
-    width: 250px;
+    width: calc(100% - 20px);
+    color: #686868;
+    font-family: sans-serif;
+}
+
+input::placeholder, textarea::placeholder, select::placeholder  {
     color: #b6b6b6;
+    font-family: sans-serif;
 }
 
 button{
@@ -49,6 +55,7 @@ button{
     padding-block: 10px;
     padding-inline: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .buttonUpdate{
@@ -123,6 +130,19 @@ table{
     justify-content: center;
  }
 
- @media screen and (max-width: 768px) {
-    
+ .tasks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    align-items: stretch;
+    width: 95%;
+    max-width: 1200px;
+}
+
+ @media screen and (min-width: 888px) {
+    .tasks{
+        width: 100%;
+    }
  }
